@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GitHub Profile [API]</title>
+        <style>
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+</style>
+    </head>
+    <body>
+        <div class="searchBox">
+            <h1 class="heading">GitHub Profile</h1>
+            <div>
+                <input type="username" class="usrname search" placeholder="username">
+            <button class="btn search" onclick="find()">Find</button>
+            </div>
+        </div>
+
+        <a id='url'><img id='userProfile'></a>
+        <br />
+        <br />
+        <h1 id="loading">Loading</h1>
+        <div id="userData">
+        <label>Name: </label><span id='user'></span>
+        <br />
+        <label>Followers: </label><span id='userFollowers'></span>
+        <br />
+        <label>Following: </label><span id='userFollowing'></span>
+        <br />
+        <label>ID: </label><span id='userId'></span>
+        <br />
+        <label>Location: </label><span id='userLocation'></span>
+        <br />
+        <label>Bio: </label><span id='userBio'></span>
+        </div>
+    </body>
+</html>
