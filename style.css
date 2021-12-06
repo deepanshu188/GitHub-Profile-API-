@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body {
+    background:#24292e;
+}
+
+#user, #userId, #userLocation, #userFollowers, #userFollowing
+{
+    color:#fd0f2b;
+   font-family: 'Fondamento', cursive;
+    font-size: 1.3rem;
+}
+
+#userBio {
+    color:rgba(246,84,106);
+    font-size: 1.5rem;
+    font-family: 'Indie Flower', cursive;
+    font-weight:bold;
+}
+
+#userProfile {
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    border:3px solid rgba(0 , 0, 0, 0.1);
+    display:none;
+}
+
+label {
+    font-weight:bold;
+    color:#fff;
+}
+
+#loading {
+    display:none;
+    font-size:3rem;
+    position:relative;
+    left:33vw;
+    top:25vh;
+    color:grey;
+    text-shadow:1px 4px red;
+    font-family: 'Righteous', cursive;
+}
+
+#userData{
+    display:none;
+}
+
+@media (max-width:480px) {
+    #loading{
+        left:18vw;
+    }
+}
+
+.searchBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+}
+
+.search {
+    border: none;
+    outline: none;
+    margin-left: 6px;
+    margin-bottom: 6px;
+    border-radius: 6px;
+}
+
+.usrname {
+    height: 25px;
+    background: #e3e3e3;
+    padding: 0 6px;
+}
+
+.btn {
+    background: #141414;
+    color: #fff;
+    height: 30px;
+    width: 60px;
+}
+
+.heading {
+    color: #fff;
+    font-size: 2.4rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
